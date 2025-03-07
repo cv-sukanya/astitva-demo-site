@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
  
-
     
 </head>
 
@@ -1014,26 +1013,88 @@
     </section>
 
 
+    <!--blog section end here-->
+
+<!-- 
+    <section class="impact-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Empowering Lives, Creating Change</p>
+                <div class="s-sub-title ">Impact Stories</div>
+
+                
+
+            </div>
+
+            <div class="impact-event-grid">
+               
+                <div class="impact-event-grid-box">
+                    <div class="col-lg-6">
+                        <div class="event-impact-card">
+                            <div class="imp-img">
+                                <img src="https://i.ytimg.com/vi_webp/hSzntgQJGFw/sddefault.webp" loading="lazy" alt="" />
+                                <a href="https://www.youtube.com/watch?v=hSzntgQJGFw" data-youtube-id="hSzntgQJGFw" class="video-banner js-trigger-video-modal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#faa627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play-circle"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                                </a>
+                            </div>
+    
+                            <div class="imp-dec">
+                                <div class="imp-title">
+                                    Udaan 
+                                </div>
+                                <p>
+                                    Swati Sisode- House Wife at Shirpur | The empowerment of women is a social concern in our nation. It is necessary to create means for them to support themselves and their families, if the need should arise. Furthermore, every individual, irrespective of gender, should be privy to a platform to discover their true selves.
+                                <br><br> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="event-impact-card">
+                            <div class="imp-img">
+                                <img src="https://i.ytimg.com/vi_webp/ZKfvhEfDZ9A/sddefault.webp" loading="lazy" alt="" />
+                                <a href="https://www.youtube.com/watch?v=ZKfvhEfDZ9A" data-youtube-id="ZKfvhEfDZ9A" class="video-banner js-trigger-video-modal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#faa627" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play-circle"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                                </a>
+                            </div>
+    
+                            <div class="imp-dec">
+                                <div class="imp-title">
+                                    Dreams
+                                </div>
+                                <p>
+                                    Roshani Roopchand Pawara , Teacher and a PHD aspirant | Education is the key to change & development. A literate society can fast-track growth and innovation. A multitude of academic facilities have enabled over 50% population at Shirpur to be literate. Even now, advanced degree colleges are being set up for the benefit of a once marginalized community, so that they may soar to new heights.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-view-more"><a href="impactstory.html">View More</a></button>
+                </div>
+            
+            </div>
+
+    </section> -->
+
     <a href="javascript:" id="return-to-top">
+
+
+
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
             <polyline points="18 15 12 9 6 15"></polyline>
         </svg>
+
     </a>
 
     <div id="footer-placeholder"></div>
 
 
-
     <!--scripts start here-->
-    <script>
-        fetch("footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer-placeholder").innerHTML = data;
-            })
-            .catch(error => console.log("Error loading footer:", error));
-	</script>
 
     <script src="js/jquery-2.2.4.js "></script>
 
@@ -1045,11 +1106,6 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- jQuery & Owl Carousel JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
 
     <script>
             var swiper = new Swiper(".mySwiper", {
@@ -1072,7 +1128,6 @@
 
     </script>
 
-    
     <!-- Initialize Owl Carousel -->
     <script>
         $(document).ready(function () {
@@ -1089,6 +1144,16 @@
             });
         });
     </script>
+
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            })
+            .catch(error => console.log("Error loading footer:", error));
+    </script>
+
     
 </body>
 
